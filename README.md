@@ -1,2 +1,2 @@
 # clone-tabnews
-Implementação do tabnews seguindo oritentações do Deschamps
+Implementação do tabnews seguindo orientações do Deschamps
