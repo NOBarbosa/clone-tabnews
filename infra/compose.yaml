@@ -1,7 +1,12 @@
+# serviços que queremos levantar
 services:
   database:
-    image: "postgres:16.0-alpine3.18"
+    image: "postgres:16.0-alpine3.18" #Linux alpine ocupa a menor quantidade de recursos possiveis
     env_file:
       - ../.env.development
     ports:
       - "5432:5432"
+
+# Dockerfile -> Código fonte que define os comandos que serão usados para formar o ambiente virtual
+# que queremos consumir -> Dockerfile é compilado em Imagem
+# Container é uma image rodando
